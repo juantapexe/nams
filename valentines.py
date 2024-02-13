@@ -1,4 +1,4 @@
-import random
+import
 
 messages = [
     "Roses are red, violets are blue, sugar is sweet, and so are you.",
@@ -16,14 +16,3 @@ messages = [
 valentine_message = random.choice(messages)
 
 print(valentine_message)
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route('/valentine-message')
-def valentine_message():
-    message = generate_valentines_message()
-    return message
-
-if __name__ == '__main__':
-    app.run(debug=True)  # Run the Flask app in debug mode
