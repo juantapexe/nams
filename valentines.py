@@ -1,6 +1,5 @@
 import random
 
-# List of romantic messages
 messages = [
     "Roses are red, violets are blue, sugar is sweet, and so are you.",
     "You're the best thing that's ever happened to me. Happy Valentine's Day!",
@@ -14,8 +13,6 @@ messages = [
     "I cherish every moment we spend together. Happy Valentine's Day!"
 ]
 
-# Select a random message
 valentine_message = random.choice(messages)
 
-# Print the message
 print(valentine_message)
