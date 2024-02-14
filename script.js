@@ -1,6 +1,6 @@
 // Define an array of random phrases
 const phrases = [
-  "You mean everything to me.",
+  "youre so secsy that even life gets hard.",
   "But there has been a lil bit of error.",
   "You're the best thing that's ever happened to me.",
   "Every moment with you is a blessing.",
@@ -16,7 +16,7 @@ const phrases = [
   "To the only person id share my snacks with.",
   "To my favourite snack.",
   "Happy Valentine’s Day to the most special person in my life.",
-  "Once again thank you very much for the jibbitz I love em."
+  "Once again thank you very much for the jibbitz I love them."
   // Added a comma after the last phrase
 ];
 
