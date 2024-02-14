@@ -16,7 +16,8 @@ const phrases = [
   "To the only person id share my snacks with.",
   "To my favourite snack.",
   "Happy Valentine’s Day to the most special person in my life.",
-  "Once again thank you very much for the jibbitz I love em.",
+  "Once again thank you very much for the jibbitz I love em."
+
 ];
 
 // Function to get a random phrase
@@ -50,7 +51,7 @@ const images = [
   "IMG_5944.jpeg",
   "IMG_6114.jpeg",
   "IMG_6515.jpeg",
-  "IMG_8075.jpeg",
+  "IMG_8075.jpeg"
   // Add more image URLs as needed
 ];
 
