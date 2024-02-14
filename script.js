@@ -2,7 +2,7 @@
 const phrases = [
   "youre so secsy that even life gets hard.",
   "But there has been a lil bit of error.",
-  "You're the best thing that's ever happened to me.",
+  "how much beuaty sleep does one need to look that good.",
   "Every moment with you is a blessing.",
   "Just know that im never letting you go.",
   "I didnt time it right.",
@@ -15,7 +15,7 @@ const phrases = [
   "Mine.",
   "To the only person id share my snacks with.",
   "To my favourite snack.",
-  "Happy Valentine’s Day to the most special person in my life.",
+  "nerd saali.',
   "Once again thank you very much for the jibbitz I love them."
   // Added a comma after the last phrase
 ];
