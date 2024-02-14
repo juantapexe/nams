@@ -33,7 +33,6 @@ document.getElementById('showSurprise').addEventListener('click', function() {
 const images = [
   "IMG_1436.jpeg",
   "IMG_1544.jpeg",
-  "IMG_6353.jpeg",
   "IMG_1937.jpeg",
   "IMG_1945.jpeg",
   "IMG_6353.jpeg",
