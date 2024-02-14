@@ -64,6 +64,15 @@ footer p {
   text-align: center; /* Center surprise content */
 }
 
+/* Styling for image */
+img {
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 20px; /* Add space above image */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
 /* Responsive design for smaller screens */
 @media screen and (max-width: 600px) {
   header h1 {
