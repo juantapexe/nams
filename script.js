@@ -1,8 +1,31 @@
+// Define an array of random phrases
+const phrases = [
+  "You mean everything to me.",
+  "I love you more than words can express.",
+  "You're the best thing that's ever happened to me.",
+  "Every moment with you is a blessing.",
+  "You light up my world.",
+  "You're my everything and more.",
+  "I'm so grateful to have you in my life.",
+  "My love for you knows no bounds.",
+  "You're the reason I smile every day.",
+  "I cherish every moment we spend together."
+];
+
+// Function to get a random phrase
+function getRandomPhrase() {
+  return phrases[Math.floor(Math.random() * phrases.length)];
+}
+
+// Event listener for the "Click to Reveal" button
 document.getElementById('showSurprise').addEventListener('click', function() {
   var surpriseDiv = document.getElementById('surprise');
-  if (surpriseDiv.style.display === 'none' || surpriseDiv.style.display === '') {
-    surpriseDiv.style.display = 'block';
-  } else {
-    surpriseDiv.style.display = 'none';
-  }
+  var surpriseText = document.getElementById('surpriseText');
+  var randomPhrase = getRandomPhrase();
+  
+  // Set the random phrase text
+  surpriseText.textContent = randomPhrase;
+  
+  // Show the surprise div
+  surpriseDiv.style.display = 'block';
 });
