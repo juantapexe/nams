@@ -15,7 +15,7 @@ const phrases = [
   "Mine.",
   "To the only person id share my snacks with.",
   "To my favourite snack.",
-  "nerd saali.',
+  "nerd saali.",
   "Once again thank you very much for the jibbitz I love them."
   // Added a comma after the last phrase
 ];
