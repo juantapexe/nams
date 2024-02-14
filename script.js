@@ -29,3 +29,29 @@ document.getElementById('showSurprise').addEventListener('click', function() {
   // Show the surprise div
   surpriseDiv.style.display = 'block';
 });
+// Define an array of image URLs
+const images = [
+  "image1.jpg",
+  "image2.jpg",
+  "image3.jpg",
+  // Add more image URLs as needed
+];
+
+// Function to get a random image URL
+function getRandomImage() {
+  return images[Math.floor(Math.random() * images.length)];
+}
+
+// Event listener for the "Click to Relive Memories" button
+document.getElementById('showSurprise').addEventListener('click', function() {
+  var surpriseDiv = document.getElementById('surprise');
+  var surpriseText = document.getElementById('surpriseText');
+  var surpriseImage = document.getElementById('surpriseImage');
+  
+  // Set the random image source
+  surpriseImage.src = getRandomImage();
+  
+  // Show the surprise div
+  surpriseDiv.style.display = 'block';
+});
+
