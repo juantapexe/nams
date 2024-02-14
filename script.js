@@ -33,7 +33,7 @@ document.getElementById('showSurprise').addEventListener('click', function() {
 const images = [
   "image1.jpg",
   "image2.jpg",
-  "image3.jpg",
+  "IMG_6353.jpeg",
   "https://raw.githubusercontent.com/juantapexe/nams/main/IMG_1436.jpeg",
   // Add more image URLs as needed
 ];
