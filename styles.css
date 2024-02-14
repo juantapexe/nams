@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #ff66b3; /* Light pink background for header */
+  background-color: #ff6699; /* Light pink background for header */
   color: #fff; /* White text color */
   padding: 20px 0; /* Add padding top and bottom */
   text-align: center; /* Center text */
@@ -36,7 +36,7 @@ section {
 }
 
 button {
-  background-color: #ff66b3; /* Light pink button background */
+  background-color: #ff6699; /* Light pink button background */
   color: #fff; /* White text color */
   padding: 10px 20px; /* Add padding to button */
   font-size: 16px; /* Font size */
@@ -51,7 +51,7 @@ button:hover {
 }
 
 footer {
-  background-color: #ff66b3; /* Light pink background for footer */
+  background-color: #ff6699; /* Light pink background for footer */
   color: #fff; /* White text color */
   text-align: center; /* Center text */
   padding: 20px 0; /* Add padding top and bottom */
@@ -60,4 +60,3 @@ footer {
 footer p {
   font-size: 14px; /* Smaller font size for footer text */
 }
-
