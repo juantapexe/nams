@@ -31,10 +31,12 @@ document.getElementById('showSurprise').addEventListener('click', function() {
 });
 // Define an array of image URLs
 const images = [
-  "image1.jpg",
-  "image2.jpg",
+  "IMG_1436.jpeg",
+  "IMG_1544.jpeg",
   "IMG_6353.jpeg",
-  "https://raw.githubusercontent.com/juantapexe/nams/main/IMG_1436.jpeg",
+  "IMG_1937.jpeg",
+  "IMG_1945.jpeg",
+  "IMG_6353.jpeg",
   // Add more image URLs as needed
 ];
 
