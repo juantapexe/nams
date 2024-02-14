@@ -34,6 +34,7 @@ const images = [
   "image1.jpg",
   "image2.jpg",
   "image3.jpg",
+  "https://raw.githubusercontent.com/juantapexe/nams/main/IMG_1436.jpeg",
   // Add more image URLs as needed
 ];
 
