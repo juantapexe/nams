@@ -4,12 +4,19 @@ const phrases = [
   "But there has been a lil bit of error.",
   "You're the best thing that's ever happened to me.",
   "Every moment with you is a blessing.",
-  "You light up my world.",
+  "Just know that im never letting you go.",
   "I didnt time it right.",
   "I'm so grateful to have you in my life.",
   "I actually got you something.",
   "You're the reason I smile every day.",
   "I cherish every moment we spend together."
+  "In case you ever foolishly forget: I am never not thinking about you.",
+  "I love how youre the cause of this relationship.",
+  "Mine",
+  "To the only person id share my snacks with",
+  "To my favourite snack",
+  "Happy Valentine’s Day to the most special person in my life.",
+  "Once again thank you very much for the jibbitz I love em",
 ];
 
 // Function to get a random phrase
