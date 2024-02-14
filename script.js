@@ -12,11 +12,11 @@ const phrases = [
   "I cherish every moment we spend together."
   "In case you ever foolishly forget: I am never not thinking about you.",
   "I love how youre the cause of this relationship.",
-  "Mine",
-  "To the only person id share my snacks with",
-  "To my favourite snack",
+  "Mine.",
+  "To the only person id share my snacks with.",
+  "To my favourite snack.",
   "Happy Valentine’s Day to the most special person in my life.",
-  "Once again thank you very much for the jibbitz I love em",
+  "Once again thank you very much for the jibbitz I love em.",
 ];
 
 // Function to get a random phrase
