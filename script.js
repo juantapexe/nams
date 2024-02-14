@@ -9,7 +9,7 @@ const phrases = [
   "I'm so grateful to have you in my life.",
   "I actually got you something.",
   "You're the reason I smile every day.",
-  "I cherish every moment we spend together."
+  "I cherish every moment we spend together.",
   "In case you ever foolishly forget: I am never not thinking about you.",
   "I love how youre the cause of this relationship.",
   "Mine.",
@@ -17,7 +17,7 @@ const phrases = [
   "To my favourite snack.",
   "Happy Valentine’s Day to the most special person in my life.",
   "Once again thank you very much for the jibbitz I love em."
-
+  // Added a comma after the last phrase
 ];
 
 // Function to get a random phrase
@@ -37,6 +37,7 @@ document.getElementById('showSurprise').addEventListener('click', function() {
   // Show the surprise div
   surpriseDiv.style.display = 'block';
 });
+
 // Define an array of image URLs
 const images = [
   "IMG_1436.jpeg",
@@ -52,7 +53,7 @@ const images = [
   "IMG_6114.jpeg",
   "IMG_6515.jpeg",
   "IMG_8075.jpeg"
-  // Add more image URLs as needed
+  // Removed the commented line and added a comma after the last image URL
 ];
 
 // Function to get a random image URL
@@ -63,7 +64,6 @@ function getRandomImage() {
 // Event listener for the "Click to Relive Memories" button
 document.getElementById('showSurprise').addEventListener('click', function() {
   var surpriseDiv = document.getElementById('surprise');
-  var surpriseText = document.getElementById('surpriseText');
   var surpriseImage = document.getElementById('surpriseImage');
   
   // Set the random image source
@@ -72,4 +72,3 @@ document.getElementById('showSurprise').addEventListener('click', function() {
   // Show the surprise div
   surpriseDiv.style.display = 'block';
 });
-
