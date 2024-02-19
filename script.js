@@ -1,4 +1,4 @@
-// Define an array of random phrases
+
 const phrases = [
   "youre so secsy that even life gets hard.",
   "But there has been a lil bit of error.",
@@ -17,28 +17,22 @@ const phrases = [
   "To my favourite snack.",
   "nerd saali.",
   "Once again thank you very much for the jibbitz I love them."
-  // Added a comma after the last phrase
 ];
 
-// Function to get a random phrase
 function getRandomPhrase() {
   return phrases[Math.floor(Math.random() * phrases.length)];
 }
 
-// Event listener for the "Click to Reveal" button
 document.getElementById('showSurprise').addEventListener('click', function() {
   var surpriseDiv = document.getElementById('surprise');
   var surpriseText = document.getElementById('surpriseText');
   var randomPhrase = getRandomPhrase();
   
-  // Set the random phrase text
   surpriseText.textContent = randomPhrase;
   
-  // Show the surprise div
   surpriseDiv.style.display = 'block';
 });
 
-// Define an array of image URLs
 const images = [
   "IMG_1436.jpeg",
   "IMG_1544.jpeg",
@@ -53,22 +47,17 @@ const images = [
   "IMG_6114.jpeg",
   "IMG_6515.jpeg",
   "IMG_8075.jpeg"
-  // Removed the commented line and added a comma after the last image URL
 ];
 
-// Function to get a random image URL
 function getRandomImage() {
   return images[Math.floor(Math.random() * images.length)];
 }
 
-// Event listener for the "Click to Relive Memories" button
 document.getElementById('showSurprise').addEventListener('click', function() {
   var surpriseDiv = document.getElementById('surprise');
   var surpriseImage = document.getElementById('surpriseImage');
   
-  // Set the random image source
   surpriseImage.src = getRandomImage();
   
-  // Show the surprise div
   surpriseDiv.style.display = 'block';
 });
