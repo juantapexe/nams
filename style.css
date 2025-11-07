@@ -1,92 +1,95 @@
-/* Import a clean, modern font */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;700&display=swap');
 
-/* Reset default margin and padding */
-body, h1, h2, p {
-    margin: 0;
-    padding: 0;
-}
-
+/* --- General Setup --- */
 body {
-    font-family: 'Lato', sans-serif; /* Cleaner font */
-    background-color: #f7f7f7; /* Creamy/off-white background */
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff0f3; /* Light pink background */
     color: #333;
-}
-
-header {
-    background-color: #00704A; /* Starbucks Green */
-    color: #fff;
-    padding: 20px 0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
     text-align: center;
 }
 
-/* Add this to your existing header h1 rule */
-header h1 {
-    font-size: 36px;
-    font-weight: 700;
-    
-    /* This line tells it to use the animation */
+/* --- Typography --- */
+h1 {
+    font-family: 'Pacifico', cursive; /* Cute handwritten font */
+    color: #d90429; /* Strong red */
+    font-size: 3rem;
+    margin-bottom: 0;
+    /* This adds the heartbeat animation */
     animation: heartbeat 2s ease-in-out infinite;
 }
 
-/* This is the animation itself */
+h2 {
+    color: #e56b6f; /* Softer red */
+}
+
+/* --- Layout --- */
+main {
+    max-width: 500px;
+    width: 90%;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 30px;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+/* --- The Button --- */
+#showSurprise {
+    background-color: #d90429;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px; /* Makes it a cute pill shape */
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#showSurprise:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 20px rgba(217, 4, 41, 0.3);
+}
+
+/* --- The Surprise Box --- */
+#surprise {
+    margin-top: 25px;
+}
+
+#surpriseImage {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: 3px solid #fceef0; /* Light pink border */
+}
+
+#surpriseText {
+    font-size: 1.1rem;
+    color: #555;
+    font-weight: bold;
+}
+
+/* --- Heartbeat Animation --- */
 @keyframes heartbeat {
     0%, 100% {
         transform: scale(1);
     }
     50% {
-        transform: scale(1.05); /* Gently "grows" in the middle */
+        transform: scale(1.05);
     }
-}
-}
-
-main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-section {
-    background-color: #fff; /* Clean white card */
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Center section text */
-}
-
-button {
-    background-color: #00704A; /* Starbucks Green */
-    color: #fff;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: 700;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #00593A; /* Darker green on hover */
-}
-
-footer {
-    background-color: #00704A; /* Starbucks Green */
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-footer p {
-    font-size: 14px;
-}
-
-/* Style for the surprise image */
-#surpriseImage {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
