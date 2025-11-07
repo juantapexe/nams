@@ -16,7 +16,7 @@ body {
 
 /* --- Typography --- */
 h1 {
-    font-family: 'Pacifico', cursive; /* Cute handwritten font */
+    font-family: Helvetica, Arial, sans-serif;
     color: #d90429; /* Strong red */
     font-size: 3rem;
     margin-bottom: 0;
