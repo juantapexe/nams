@@ -1,71 +1,77 @@
+/* Import a clean, modern font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 /* Reset default margin and padding */
 body, h1, h2, p {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #fff; /* White background */
-  color: #333; /* Dark gray text color */
+    font-family: 'Lato', sans-serif; /* Cleaner font */
+    background-color: #f7f7f7; /* Creamy/off-white background */
+    color: #333;
 }
 
 header {
-  background-color: #ff6699; /* Light pink background for header */
-  color: #fff; /* White text color */
-  padding: 20px 0; /* Add padding top and bottom */
-  text-align: center; /* Center text */
+    background-color: #00704A; /* Starbucks Green */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
 
 header h1 {
-  font-size: 36px; /* Larger font size for heading */
+    font-size: 36px;
+    font-weight: 700;
 }
 
 main {
-  max-width: 800px; /* Limit content width */
-  margin: 0 auto; /* Center content horizontally */
-  padding: 20px; /* Add padding around main content */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 section {
-  background-color: #fff; /* White background for sections */
-  border-radius: 8px; /* Add rounded corners */
-  padding: 20px; /* Add padding inside sections */
-  margin-bottom: 20px; /* Add space between sections */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    background-color: #fff; /* Clean white card */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center section text */
 }
 
 button {
-  background-color: #ff6699; /* Light pink button background */
-  color: #fff; /* White text color */
-  padding: 10px 20px; /* Add padding to button */
-  font-size: 16px; /* Font size */
-  border: none; /* Remove button border */
-  border-radius: 4px; /* Add rounded corners */
-  cursor: pointer; /* Change cursor to pointer on hover */
-  transition: background-color 0.3s ease; /* Smooth transition */
+    background-color: #00704A; /* Starbucks Green */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #ff4d88; /* Darker pink on hover */
+    background-color: #00593A; /* Darker green on hover */
 }
 
 footer {
-  background-color: #ff6699; /* Light pink background for footer */
-  color: #fff; /* White text color */
-  text-align: center; /* Center text */
-  padding: 20px 0; /* Add padding top and bottom */
+    background-color: #00704A; /* Starbucks Green */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
 
 footer p {
-  font-size: 14px; /* Smaller font size for footer text */
+    font-size: 14px;
 }
 
 /* Style for the surprise image */
 #surpriseImage {
-  max-width: 100%; /* Ensure image doesn't exceed container width */
-  height: auto; /* Maintain aspect ratio */
-  margin-top: 20px; /* Add space above image */
-  border-radius: 8px; /* Add rounded corners */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
