@@ -20,9 +20,24 @@ header {
     text-align: center;
 }
 
+/* Add this to your existing header h1 rule */
 header h1 {
     font-size: 36px;
     font-weight: 700;
+    
+    /* This line tells it to use the animation */
+    animation: heartbeat 2s ease-in-out infinite;
+}
+
+/* This is the animation itself */
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05); /* Gently "grows" in the middle */
+    }
+}
 }
 
 main {
