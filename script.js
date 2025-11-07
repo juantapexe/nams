@@ -2,7 +2,7 @@
 const phrases = [
   "youre so secsy that even life gets hard.",
   "But there has been a lil bit of error.",
-  "how much beuaty sleep does one need to look that good.",
+  "how much beauty sleep does one need to look that good.",
   "Every moment with you is a blessing.",
   "Just know that im never letting you go.",
   "I didnt time it right.",
